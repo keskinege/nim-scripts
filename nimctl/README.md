@@ -272,12 +272,12 @@ sidecar, and fails if the bytes do not match the reported size/hash.
 
 NIM security policies and Kubernetes **PLM** custom resources (F5 WAF for NGINX) use the
 same policy JSON — only the packaging differs. `nimctl` exchanges the base64 content;
-[`v52plm.py`](~/Documents/script/v52plm.py) wraps that JSON into `APPolicy` / `APLogConf` /
+`v52plm.py` wraps that JSON into `APPolicy` / `APLogConf` /
 `APUserSig` CRDs and back. No `jq`/`base64` needed.
 
 ```bash
 # converter has one dependency (PyYAML); run it without a project env
-CONV="uv run --no-project --with pyyaml python ~/Documents/script/v52plm.py"
+CONV="uv run --no-project --with pyyaml python ./v52plm.py"
 ```
 
 **NIM → APPolicy YAML** (export a policy as a CRD):
