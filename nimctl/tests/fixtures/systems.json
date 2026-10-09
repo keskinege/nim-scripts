@@ -1,0 +1,9 @@
+{
+  "count": 1,
+  "items": [
+    {
+      "uid": "sys-1",
+      "hostname": "nginx-01"
+    }
+  ]
+}

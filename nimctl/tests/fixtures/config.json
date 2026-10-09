@@ -1,0 +1,11 @@
+{
+  "configFiles": [
+    {
+      "name": "/etc/nginx/conf.d/default.conf",
+      "contents": "c2VydmVyIHsgbGlzdGVuIDgwOyB9Cg=="
+    }
+  ],
+  "auxFiles": [],
+  "createTime": "2026-09-14T00:00:00Z",
+  "updateTime": "2026-09-14T00:00:00Z"
+}

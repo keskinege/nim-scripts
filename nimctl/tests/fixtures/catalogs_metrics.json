@@ -1,0 +1,12 @@
+{
+  "items": [
+    {
+      "name": "nginx.http.request.count",
+      "description": "d",
+      "aggregations": [
+        "sum"
+      ],
+      "categories": []
+    }
+  ]
+}

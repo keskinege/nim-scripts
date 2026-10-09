@@ -1,0 +1,10 @@
+build/
+dist/
+*.spec
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+site/
+.DS_Store
+uv.lock
+.venv

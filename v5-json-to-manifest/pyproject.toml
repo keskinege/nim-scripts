@@ -1,0 +1,16 @@
+[project]
+name = "tmp"
+version = "0.1.0"
+description = "JSON to YAML convertor for V5"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "pyyaml>=6.0.3",
+]
+
+[project.scripts]
+tmp = "tmp:main"
+
+[build-system]
+requires = ["uv_build>=0.12.13,<0.13.0"]
+build-backend = "uv_build"

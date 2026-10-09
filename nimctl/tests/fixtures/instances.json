@@ -1,0 +1,12 @@
+{
+  "count": 1,
+  "items": [
+    {
+      "uid": "ngx-1",
+      "systemUid": "sys-1",
+      "displayName": "nginx-01"
+    }
+  ],
+  "nginxAppProtectWAFCount": 0,
+  "nginxPlusCount": 0
+}
